@@ -13,6 +13,7 @@ li{
 }
 ul {
     padding: 10px;
+    list-style: none;
     list-style-position: inside;
 }
 .headerul{
