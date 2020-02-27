@@ -20,5 +20,6 @@ ul {
     list-style-position: inside;
 }
 .headerul{
+    display: inline;
     background: rgba(0, 0, 200, .7);
 }
