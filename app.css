@@ -10,7 +10,7 @@ header{
     text-align: center;
 }
 li{
-    display: block;
+    display: inline;
     padding: 0px 200px 0px 200px;
     color: white;
 }
@@ -20,6 +20,5 @@ ul {
     list-style-position: inside;
 }
 .headerul{
-    display: inline;
     background: rgba(0, 0, 200, .7);
 }
