@@ -6,6 +6,9 @@ body{
     background: lightblue;
     color: black;
 }
+header{
+    text-align: center;
+}
 li{
     display: block;
     padding: 0px 200px 0px 200px;
