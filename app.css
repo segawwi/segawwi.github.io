@@ -48,6 +48,8 @@ ul {
     background-color: white;
     width: 900px;
 }
+
+/*Button CSS*/
 .button1{
     padding: 4px;
     border-width: 2px;
@@ -93,16 +95,29 @@ ul {
     padding: 5px;
     border-width: 3px;
 }
+/*End Buttons*/
+
 .footerText{
     padding-top: 5px;
     padding-left: 70px;
     text-align: left;
+    color: white;
+}
+.gas{
+    float: left;
+    margin-right: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(210, 157, 24);
 }
 .headerul{
     background: rgba(0, 0, 128, .4);
 }
 .logo{
     padding-left: 30px;
+}
+.panzer{
+    float: right;
 }
 .topimage{
     padding-left: 50px;
