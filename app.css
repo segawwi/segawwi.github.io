@@ -83,6 +83,12 @@ ul {
 .headerul{
     background: navy;
 }
+.indexLink{
+    color: rgb(100, 140, 208);
+}
+.indexLink:visited{
+    color: navy;
+}
 .logo{
     padding-left: 30px;
 }
