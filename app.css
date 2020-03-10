@@ -50,7 +50,7 @@ ul {
 }
 
 /*Button CSS*/
-.button1, .button2, .button3, .button4{
+.button1, .button2, .button3, .button4, .button5{
     padding: 4px;
     border-width: 2px;
     border-style: solid;
@@ -59,10 +59,10 @@ ul {
     background-image: linear-gradient(rgb(200, 200, 200), rgb(20, 20, 20))
 }
 
-.button1:hover, .button2:hover, .button3:hover, .button4:hover{
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover{
     background-image: linear-gradient(rgb(185, 185, 185), rgb(5, 5, 5))
 }
-.button1:active, .button2:active, .button3:active, .button4:active{
+.button1:active, .button2:active, .button3:active, .button4:active, .button5:active{
     padding: 5px;
     border-width: 3px;
 }
