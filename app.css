@@ -2,22 +2,27 @@ a{
     color: gold;
     padding: 0px 20px 0px 20px;
 }
+b{
+    font-size: 16px;
+}
 body{
+    height: 850px;
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0;
-    background: rgb(100, 140, 208);
+    background: gray;
     color: black;
     font-family: 'Sorts Mill Goudy', Arial;
 }
 footer{
     font-family: Georgia;
-    background: navy;
+    background: rgb(109, 39, 0);
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: fixed;
     bottom: -1;
+    filter: sepia(90%);
 }
 h1{
     padding-top: 40px;
@@ -29,6 +34,7 @@ header{
 li{
     display: inline;
     color: white;
+    filter: sepia(90%);
 }
 p{
     text-align: left;
@@ -36,6 +42,7 @@ p{
 ul {
     padding: 15px;
     list-style-position: inside;
+    filter: sepia(90%);
 }
 .bodyText{
     margin-left: auto;
@@ -47,6 +54,7 @@ ul {
     padding: 5px 50px 5px 50px;
     background-color: white;
     width: 900px;
+    filter: sepia(90%);
 }
 
 /*Button CSS*/
@@ -68,8 +76,16 @@ ul {
 }
 /*End Buttons*/
 
+.destruct{
+    float: right;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(210, 157, 24);
+}
 .footerText{
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 5px;
     text-align: left;
     color: white;
 }
@@ -81,17 +97,24 @@ ul {
     border-color: rgb(210, 157, 24);
 }
 .headerul{
-    background: navy;
+    background: rgb(109, 39, 0);
 }
 .indexLink{
+    padding: 0;
     color: blue;
 }
 .indexLink:visited{
     color: navy;
 }
 .logo{
-    padding-left: 20px;
-    width: 60px;;
+    width: 100px;
+    filter: sepia(90%);
+}
+.logo:hover{
+    opacity: .8;
+}
+.logo:active{
+    opacity: 1;
 }
 .panzer{
     float: right;
